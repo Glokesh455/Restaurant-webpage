@@ -1,0 +1,51 @@
+.nav-link:hover{
+    background-color:rgb(144, 144, 232);
+}
+.nav-link{
+    color: black;
+}
+.search{
+  width: 500px;
+  height: 40px;
+  border-radius:20px 0 0 20px;
+}
+.search-btn,.booknow,.viewall,.ordernow{
+    height: 40px;
+    background-color: black;
+    color: white;
+   border-radius: 5px;
+   margin: -10px;
+}
+.services{
+    padding:0 200px 0 200px;
+}
+.people{
+    width: 220px;
+}
+.card1{
+    position: relative;
+}
+.tag{
+    width: 80px;
+    height: 30px;
+    border-radius: 0 20px 20px 20px;
+    background-color: #f9f6f6;
+    position: absolute;
+     top:10px;
+     left: 15px;
+}
+img{
+    height: 200px;
+}
+.imgcontainer .imgcard{
+
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+   
+
+}
+.customer1{
+    border: 2px solid rgb(0, 0, 0);
+   
+}
