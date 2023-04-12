@@ -19,12 +19,14 @@
 
 }
 
+
 .search-btn,.booknow,.viewall,.ordernow{
     height: 40px;
     background-color: black;
     color: white;
    border-radius: 5px;
    margin: -10px;
+   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
   
 }
 .booknow,.viewall,.ordernow{
@@ -140,7 +142,9 @@ padding: 10px;
     }
     .nav .btn{
        margin-left: 90px;
+       
     }
+ 
     .booking{
         display: flex;
         flex-wrap: wrap;
