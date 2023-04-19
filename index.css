@@ -1,170 +1,196 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-
-.nav-link:hover{
-    background-color:rgb(144, 144, 232);
+.nav-link:hover {
+  background-color: rgb(144, 144, 232);
 }
 .nav-link {
-    color: rgb(8, 8, 8);
+  color: rgb(8, 8, 8);
 }
-.search{
+.search {
   width: 500px;
   height: 40px;
-  border-radius:20px 0 0 20px;
+  border-radius: 20px 0 0 20px;
   padding-left: 40px;
-
 }
 
+.search-btn,
+.booknow,
+.viewall,
+.ordernow {
+  height: 40px;
+  background-color: black;
+  color: white;
+  border-radius: 5px;
+  margin: -10px;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.booknow,
+.viewall,
+.ordernow {
+  width: 160px;
+}
+.services {
+  padding: 0 200px 0 200px;
+}
+.people {
+  width: 220px;
+}
+.card1 {
+  position: relative;
+}
+.tag {
+  width: 80px;
+  height: 30px;
+  border-radius: 0 20px 20px 20px;
+  background-color: #f9f6f6;
+  position: absolute;
+  top: 20px;
+  left: 20px;
+}
+.carousel-inner {
+  margin: 30px;
+}
+img {
+  height: 200px;
+}
+.kitchenlogo {
+  height: 80px;
+}
+.imgcontainer .imgcard {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+.search {
+  border: 2px solid black;
+}
+.carousel-control-prev,
+.carousel-control-next {
+  background: #866c6c;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  top: 45px;
+}
+.customers {
+  background-color: #f3f7fa;
+}
+.aim {
+  background-image: url("./img/food-knife-background-wooden.jpg");
 
-.search-btn,.booknow,.viewall,.ordernow{
-    height: 40px;
-    background-color: black;
-    color: white;
-   border-radius: 5px;
-   margin: -10px;
-   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
-  
-}
-.booknow,.viewall,.ordernow{
-   width: 160px;
-    
-}
-.services{
-    padding:0 200px 0 200px;
-}
-.people{
-    width: 220px;
-}
-.card1{
-    position: relative;
-}
-.tag{
-    width: 80px;
-    height: 30px;
-    border-radius: 0 20px 20px 20px;
-    background-color: #f9f6f6;
-    position: absolute;
-     top:20px;
-     left: 20px;
-}
-img{
-    height: 200px;
-}
-.kitchenlogo{
-    height: 80px;
-}
-.imgcontainer .imgcard{
+  background-color: #cccccc;
+  height: 500px;
 
-    width: 100px;
-    height: 100px;
-    border-radius: 50%;
-   
-
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
 }
-.search{
-    border:2px solid black;
-    
+.text-strong,
+.text-uppercase {
+  padding-bottom: 10px;
+  border-bottom: 2px solid black;
+  width: fit-content;
 }
-.carousel-control-prev ,.carousel-control-next{
-    background: #866c6c;
-   width: 30px;
-   height: 30px;
-   border-radius: 50%;
-   top: 45px;
-  
-   
+.footer-items {
+  width: 80px;
 }
-.customers{
-    background-color:#F3F7FA;
-}
-.aim{
-
-    
-    
-   background-image: url("./img/food-knife-background-wooden.jpg");
-    
-    background-color: #cccccc;
-    height: 500px;
-
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
-
-}
-.text-strong,.text-uppercase{
-    
-    padding-bottom: 10px;
-    border-bottom: 2px solid black ;
-    width: fit-content;
-}
-.footer-items{
-    width: 80px;
-}
-.booknow{
-    margin: 20px;
+.booknow {
+  margin: 20px;
 }
 .glass {
-    background: rgba( 255, 255, 255, 0.65 );
-    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
-    backdrop-filter: blur( 0px );
-    -webkit-backdrop-filter: blur( 0px );
-    border-radius: 10px;
-    border: 1px solid rgba( 255, 255, 255, 0.18 );
-height: 80px;
-padding: 10px;
+  background: rgba(255, 255, 255, 0.65);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(0px);
+  -webkit-backdrop-filter: blur(0px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  height: 80px;
+  padding: 10px;
 }
 
-
 @media only screen and (max-width: 600px) {
-    .search{
-        width: 400px;
-    }
-    .banner{
-        display:none;
-    }
-    .customers{
-     display: none;
+  .search {
+    width: 400px;
+  }
+  .banner {
+    display: none;
+  }
+  .customers {
+    display: none;
+  }
+  .nav-link {
+    padding: 8px;
+  }
 
-    }
-    .nav-link{
-        padding: 8px;
-    }
+  .date,
+  .time,
+  .people,
+  .booknow {
+    margin: 10px;
+  }
+  .nav .btn {
+    margin-left: 90px;
+  }
 
-    .date,.time,.people,.booknow{
-       
-       margin: 10px;
+  .booking {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .imglogo {
+    margin-left: 30%;
+  }
+  .glass {
+    margin: 20px;
 
-    }
-    .nav .btn{
-       margin-left: 90px;
-       
-    }
+    height: 130px;
+  }
+
+  .list-unstyled li {
+    text-align: start;
+  }
+  .aim {
+    width: 500px;
+  }
+  body {
+    width: 500px;
+  }
+}
+@media only screen and (max-width: 800px) and (min-width: 600px) {
+  .services .glass {
+    margin: 50px;
+
+    height: 130px;
+  }
+  .container .row {
+    display: grid;
+    grid-template-columns: auto auto;
+    padding: 10px;
+    place-items: center;
  
-    .booking{
-        display: flex;
-        flex-wrap: wrap;
+  }
+  .divide {
+    display: none;
+  }
+  .banner img {
+    height: 150px;
+  }
+  .carousel-inner {
+    margin: 30px auto;
+  }
+  .carousel-control-prev,
+.carousel-control-next {
+  background: #866c6c;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+ top: 100px;
 
-    }
-    .imglogo{
-        margin-left: 30%;
-    }
-    .glass{
-        margin: 20px;
-        
-        height: 130px;
   
-      
-    }
- 
-    .list-unstyled li{
-        text-align: start;
-    }
-  
-
+}
 
 }
