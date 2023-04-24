@@ -192,5 +192,18 @@ img {
 
   
 }
+.row li{
+  width: 100px;
+
+}
+.row .three li{
+  width: 200px;
+
+}
+.three li.text{
+  width: 250px;
+
+}
+
 
 }
