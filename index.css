@@ -114,6 +114,9 @@ img {
 }
 
 @media only screen and (max-width: 600px) {
+  .services{ 
+    padding-left: 0px;
+  }
   .search {
     width: 400px;
   }
